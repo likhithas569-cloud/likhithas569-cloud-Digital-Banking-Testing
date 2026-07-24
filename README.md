@@ -1,66 +1,102 @@
 # Digital Banking Testing Project
 
-## Project Overview
+## Overview
 
-This project demonstrates end-to-end QA testing activities for a digital banking web application.
+This project demonstrates end-to-end QA testing activities for a digital banking application.
 
-The purpose of this project is to simulate a real-world banking application testing environment by creating test documentation, executing functional and API testing, reporting defects, and developing automation scripts.
+The project simulates a real-world banking testing environment including manual testing, API testing, defect management, and automation framework development.
+
 
 ## Application Under Test
 
 **FinTrust Digital Banking Application**
 
-A web-based banking platform that allows customers to securely manage their accounts, payments, and transactions.
+A web-based banking platform that allows customers to securely manage:
 
-## Testing Scope
+- Customer accounts
+- Payments
+- Money transfers
+- Transaction history
 
-The testing covers:
 
-- User Registration
-- Login and Authentication
-- Multi-Factor Authentication (OTP)
-- Account Dashboard
-- Account Balance Verification
-- Beneficiary Management
-- Money Transfer
-- Transaction History
-- Profile Management
-- Logout Functionality
+## Testing Coverage
 
-## Testing Activities
+The project covers:
 
-The following QA activities are performed:
-
-- Requirement Analysis
-- Test Planning
-- Test Scenario Creation
-- Manual Test Case Execution
 - Functional Testing
 - Smoke Testing
 - Regression Testing
 - Exploratory Testing
 - API Testing
+- UI Automation Testing
 - Defect Reporting
-- Test Automation
+
+
+## QA Deliverables
+
+This repository includes:
+
+📁 Test Documentation
+
+- Test Scenarios
+- Test Cases
+- Bug Reports
+- Test Data
+
+
+📁 API Testing
+
+- Postman API Testing Documentation
+
+
+📁 Automation Framework
+
+- Selenium WebDriver
+- Java
+- TestNG
+- Maven
+- Page Object Model
+
+
+📁 Reports
+
+- Test Execution Reports
+- Test Summary Report
+
 
 ## Tools & Technologies
 
 | Category | Tools |
 |---|---|
-| Test Management | Jira, Excel |
+| Test Management | Jira |
 | API Testing | Postman |
-| Automation | Selenium WebDriver, Java |
-| Version Control | Git, GitHub |
-| Database Testing | SQL |
+| Automation | Selenium WebDriver |
+| Programming | Java |
+| Framework | TestNG |
+| Build Tool | Maven |
+| Version Control | GitHub |
 
-## Repository Structure
+
+## Project Structure
+Digital-Banking-Testing
+
+├── docs
+├── test-cases
+├── bug-reports
+├── test-data
+├── postman
+├── automation
+├── screenshots
+└── reports
+
+
+## Author
+
+Likhitha Savaram
+
+QA Automation Testing Portfolio Project
+
 
 ## Project Status
 
 🚧 In Progress
-
-## Author
-
-Likhitha Naidu Savaram
-
-QA Testing Portfolio Project
