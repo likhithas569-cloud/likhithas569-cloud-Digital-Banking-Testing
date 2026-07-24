@@ -1,43 +1,50 @@
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
-public class LoginPage {
+import pages.LoginPage;
+
+
+public class LoginTest {
 
     WebDriver driver;
 
+    LoginPage loginPage;
 
-    // Constructor
-    public LoginPage(WebDriver driver) {
 
-        this.driver = driver;
+    @BeforeMethod
+    public void setup() {
+
+        driver = new ChromeDriver();
+
+        driver.manage().window().maximize();
+
+        loginPage = new LoginPage(driver);
     }
 
 
-    // Locators
+    @Test
+    public void verifyValidLogin() {
 
-    By usernameField = By.id("username");
-
-    By passwordField = By.id("password");
-
-    By loginButton = By.id("loginButton");
+        driver.get("https://fintrustbank.com/login");
 
 
-    // Actions
+        loginPage.enterUsername("testuser@fintrust.com");
 
-    public void enterUsername(String username) {
+        loginPage.enterPassword("ValidPassword123");
 
-        driver.findElement(usernameField).sendKeys(username);
+        loginPage.clickLogin();
+
+
+        System.out.println("Login test completed successfully");
     }
 
 
-    public void enterPassword(String password) {
+    @AfterMethod
+    public void tearDown() {
 
-        driver.findElement(passwordField).sendKeys(password);
-    }
-
-
-    public void clickLogin() {
-
-        driver.findElement(loginButton).click();
+        driver.quit();
     }
 }
