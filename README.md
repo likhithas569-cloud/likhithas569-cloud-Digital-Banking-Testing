@@ -95,7 +95,7 @@ Digital-Banking-Testing
 
 Likhitha Savaram
 
-QA Automation Testing Portfolio Project
+Data Analysis Project
 
 
 ## Project Status
