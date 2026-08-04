@@ -1,13 +1,14 @@
-# Digital Banking Testing Project
+# Project Overview 
+Digital Banking & Payments Data Analysis 
 
 ## Overview
 
-This project demonstrates end-to-end QA testing activities for a digital banking application.
+This project analyzes testing and transaction data from a digital banking and payments application . Test documentation , API responses, and automation results were collected and structured to identify performance trends , defect patterns , and data quality issues - supporting data -driven decisions on system reliability.
 
 The project simulates a real-world banking testing environment including manual testing, API testing, defect management, and automation framework development.
 
 
-## Application Under Test
+## Application Analyzed
 
 **FinTrust Digital Banking Application**
 
