@@ -87,3 +87,25 @@ The objective of this project is to analyze financial transactions, validate dat
 ## Project Outcome
 
 This project demonstrates the ability to transform raw financial transaction data into meaningful insights using SQL, analytics techniques, reporting, and dashboard visualisation.
+---
+
+## Dashboard Screenshots
+
+### Transaction Trend Analysis
+
+(Add your transaction trend chart screenshot here)
+
+
+### Payment Method Distribution
+
+(Add your payment method pie chart screenshot here)
+
+
+### KPI Dashboard
+
+(Add your KPI dashboard screenshot here)
+
+
+### SQL Analysis
+
+(Add your SQL query screenshot here)
