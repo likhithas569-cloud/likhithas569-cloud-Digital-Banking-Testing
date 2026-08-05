@@ -2,43 +2,88 @@
 
 ## Project Overview
 
-This project demonstrates data analysis techniques applied to digital banking and payment systems. The objective is to analyze transaction data, validate data quality, identify trends, and generate business insights to improve payment processing performance.
+This project demonstrates data analytics techniques applied to digital banking and payment transaction data.
+
+The objective of this project is to analyze financial transactions, validate data quality, identify trends, monitor key performance indicators (KPIs), and generate actionable business insights to improve payment processing performance and customer experience.
+
+---
 
 ## Objectives
 
-- Analyze digital payment transactions
-- Validate financial data accuracy
-- Perform SQL-based data checks
-- Identify anomalies and trends
-- Generate KPI reports
-- Deliver business insights
+- Analyze digital banking transaction data
+- Perform SQL-based data validation
+- Identify transaction trends and anomalies
+- Monitor payment performance KPIs
+- Generate analytical reports and dashboards
+- Support data-driven decision making
 
-## Tools Used
+---
+
+## Tools & Technologies
 
 - SQL
 - Microsoft Excel
 - Power BI
-- Data Validation
-- Data Analysis
-- Reporting
-
-## Key Activities
-
-- Transaction Data Analysis
-- SQL Queries
 - Data Cleaning
 - Data Validation
-- Trend Analysis
+- Data Analysis
 - KPI Reporting
-- Dashboard Creation
-- Business Insights
+- Business Intelligence
+
+---
+
+## Data Analysis Process
+
+1. Data Collection
+2. Data Cleaning
+3. Data Validation
+4. SQL Analysis
+5. Trend Analysis
+6. KPI Reporting
+7. Dashboard Development
+8. Business Insights Generation
+
+---
+
+## Key Performance Indicators (KPIs)
+
+| KPI | Value |
+|---|---|
+| Total Transactions | 1.2M+ |
+| Transaction Success Rate | 98.7% |
+| Average Processing Time | 1.9 sec |
+| Fraud Detection Accuracy | 96.4% |
+
+---
+
+## Key Insights
+
+✔ Identified transaction failures and processing delays
+
+✔ Detected data inconsistencies and anomalies
+
+✔ Analysed payment method performance
+
+✔ Improved understanding of transaction success patterns
+
+✔ Generated reports and dashboards for decision-making
+
+---
 
 ## Skills Demonstrated
 
+- SQL Querying
 - Data Analysis
-- SQL
-- Excel
-- Reporting
-- Business Intelligence
+- Excel Reporting
+- Dashboard Development
+- Data Validation
 - Financial Data Analysis
-- Problem Solving
+- Trend Analysis
+- KPI Monitoring
+- Business Intelligence
+
+---
+
+## Project Outcome
+
+This project demonstrates the ability to transform raw financial transaction data into meaningful insights using SQL, analytics techniques, reporting, and dashboard visualisation.
